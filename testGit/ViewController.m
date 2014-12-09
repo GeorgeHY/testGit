@@ -24,6 +24,12 @@
     int b = 6;
     self.sum = a + b;
     NSLog(@"总和为%d",self.sum);
+    
+    [self sayByeBye];
+}
+
+- (void) sayByeBye{
+    NSLog(@"sayBye - Bye");
 }
 
 -(void)sayHello{
