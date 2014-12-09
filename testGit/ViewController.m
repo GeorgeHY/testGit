@@ -9,14 +9,17 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic) int sum;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    int a = 5;
+    int b = 6;
+    self.sum = a + b;
+    NSLog(@"总和为%d",self.sum);
 }
 
 - (void)didReceiveMemoryWarning {

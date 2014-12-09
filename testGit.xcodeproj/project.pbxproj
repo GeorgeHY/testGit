@@ -412,6 +412,7 @@
 				5CBB28B41A36D30F0076E93A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CBB28B51A36D30F0076E93A /* Build configuration list for PBXNativeTarget "testGitTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				5CBB28B71A36D30F0076E93A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
