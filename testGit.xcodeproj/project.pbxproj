@@ -14,6 +14,7 @@
 		5CBB28A01A36D30F0076E93A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB289F1A36D30F0076E93A /* Images.xcassets */; };
 		5CBB28A31A36D30F0076E93A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB28A11A36D30F0076E93A /* LaunchScreen.xib */; };
 		5CBB28AF1A36D30F0076E93A /* testGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB28AE1A36D30F0076E93A /* testGitTests.m */; };
+		5CBB28F61A36DEC30076E93A /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB28F51A36DEC30076E93A /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5CBB28A81A36D30F0076E93A /* testGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBB28AD1A36D30F0076E93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CBB28AE1A36D30F0076E93A /* testGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGitTests.m; sourceTree = "<group>"; };
+		5CBB28F41A36DEC30076E93A /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		5CBB28F51A36DEC30076E93A /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				5CBB28971A36D30F0076E93A /* AppDelegate.m */,
 				5CBB28991A36D30F0076E93A /* ViewController.h */,
 				5CBB289A1A36D30F0076E93A /* ViewController.m */,
+				5CBB28F41A36DEC30076E93A /* TestClass.h */,
+				5CBB28F51A36DEC30076E93A /* TestClass.m */,
 				5CBB289C1A36D30F0076E93A /* Main.storyboard */,
 				5CBB289F1A36D30F0076E93A /* Images.xcassets */,
 				5CBB28A11A36D30F0076E93A /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CBB28F61A36DEC30076E93A /* TestClass.m in Sources */,
 				5CBB289B1A36D30F0076E93A /* ViewController.m in Sources */,
 				5CBB28981A36D30F0076E93A /* AppDelegate.m in Sources */,
 				5CBB28951A36D30F0076E93A /* main.m in Sources */,
