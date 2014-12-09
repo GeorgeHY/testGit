@@ -12,12 +12,13 @@
 
 @property (nonatomic) int sum;
 @property (nonatomic,strong) TestClass *testClass;
-
+-(void)sayHello;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    NSLog(@"~~~~~~~~~~~~~~");
     [super viewDidLoad];
     int a = 5;
     int b = 6;
@@ -25,9 +26,13 @@
     NSLog(@"总和为%d",self.sum);
 }
 
+-(void)sayHello{
+    NSLog(@"Hello");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self sayHello];
 }
 
 @end
